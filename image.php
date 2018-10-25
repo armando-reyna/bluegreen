@@ -13,6 +13,8 @@ if ( $deployment == 'blue') {
   $color = imagecolorallocate($im, 0, 0, 255);
 }
 
+$color = imagecolorallocate($im, 0, 172, 180);
+
 // Draw a filled rectangle
 imagefilledrectangle($im, 0, 0, 199, 199, $color);
 
